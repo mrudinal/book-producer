@@ -1,0 +1,22 @@
+---
+page: {{PAGE_NUMBER}}
+title: "{{PAGE_TITLE}}"
+status: draft
+text_length: {{TEXT_LENGTH}}
+illustration_prompt: ""
+illustration_file: ""
+illustration_strategy: ""
+---
+
+# Page {{PAGE_NUMBER}} — {{PAGE_TITLE}}
+
+## Text
+
+<!-- Enter your page text here according to the text_length directive -->
+
+## Illustration
+
+- **Prompt**: <!-- filled in during stage 3 design -->
+- **File**: <!-- filled in after stage 4 image generation -->
+- **Strategy used**: <!-- filled in after image run -->
+- **Notes**: 

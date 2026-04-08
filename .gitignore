@@ -1,0 +1,41 @@
+# Dependencies and package managers
+node_modules/
+.npm/
+.pnpm-store/
+
+# Build and release artifacts
+dist/
+.release/
+coverage/
+*.tgz
+*.tsbuildinfo
+
+# Environment and local runtimes
+.env
+.env.*
+!.env.example
+.npmrc
+venv/
+.venv/
+__pycache__/
+
+# Local AI/editor metadata
+.claude/
+.spec-driven/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+.tmp-review-summary.txt
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+tmp/
+temp/
+
+# Editor and operating system noise
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
